@@ -41,6 +41,9 @@ h2 {
   font-size: 36px;
   letter-spacing: -0.5px;
 }
+img {
+  border-radius: 12px;
+}
 
 .grid-3-cols {
   display: grid;
@@ -57,6 +60,7 @@ h2 {
   text-transform: uppercase;
   display: inline-block;
   font-weight: 500;
+  border-radius: 12px;
 }
 
 .btn:hover,
@@ -131,6 +135,7 @@ img {
   background-color: #087f5b;
   padding: 20px;
   color: #fff;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -149,10 +154,16 @@ img {
   font-size: 18px;
   line-height: 1.7;
 }
+/* CHAIRS */
 .chair {
   box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
-/* CHAIRS */
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 .chair-box {
   padding: 24px;
 }
